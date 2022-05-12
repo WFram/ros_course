@@ -1,0 +1,12 @@
+rosnode: node is [/penkovskiy_turtle]
+pinging /penkovskiy_turtle with a timeout of 3.0s
+xmlrpc reply from http://localhost:40845/	time=0.907898ms
+xmlrpc reply from http://localhost:40845/	time=1.157999ms
+xmlrpc reply from http://localhost:40845/	time=0.578165ms
+xmlrpc reply from http://localhost:40845/	time=1.194000ms
+xmlrpc reply from http://localhost:40845/	time=1.072884ms
+xmlrpc reply from http://localhost:40845/	time=1.019001ms
+xmlrpc reply from http://localhost:40845/	time=0.713110ms
+xmlrpc reply from http://localhost:40845/	time=1.123905ms
+xmlrpc reply from http://localhost:40845/	time=1.320839ms
+ping average: 1.009756ms

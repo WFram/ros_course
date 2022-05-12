@@ -1,0 +1,37 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/wfram/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/wfram/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/wfram/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/wfram/catkin_ws/build/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - wfram
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'wfram'
+-- ==> add_subdirectory(wfram)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wfram/catkin_ws/build
+Base path: /home/wfram/catkin_ws
+Source space: /home/wfram/catkin_ws/src
+Build space: /home/wfram/catkin_ws/build
+Devel space: /home/wfram/catkin_ws/devel
+Install space: /home/wfram/catkin_ws/install
+####
+#### Running command: "cmake /home/wfram/catkin_ws/src -DCATKIN_DEVEL_PREFIX=/home/wfram/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wfram/catkin_ws/install -G Unix Makefiles" in "/home/wfram/catkin_ws/build"
+####
+####
+#### Running command: "make -j5 -l5" in "/home/wfram/catkin_ws/build"
+####

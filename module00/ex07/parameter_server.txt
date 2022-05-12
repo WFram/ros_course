@@ -1,0 +1,10 @@
+/penkovskiy_turtle/background_b
+/penkovskiy_turtle/background_g
+/penkovskiy_turtle/background_r
+/rosdistro
+/roslaunch/uris/host_wfram_virtualbox__37439
+/rosversion
+/run_id
+/turtlesim/background_b
+/turtlesim/background_g
+/turtlesim/background_r
