@@ -1,0 +1,5 @@
+type: "position_controllers/JointGroupPositionController"
+joints:
+  - custer_x_to_base_link
+  - custer_y_to_base_link
+  - custer_z_to_base_link
