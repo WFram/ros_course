@@ -1,0 +1,7 @@
+<launch>
+    <param name="img_file" value="$(find computer_vision)/misc/images/awesome_robot.jpg" type="string" />
+
+    <node pkg="computer_vision" type="publisher_node" name="publisher_node" />
+
+    <node pkg="computer_vision" type="color_switcher_node" name="color_switcher_node" />
+</launch>

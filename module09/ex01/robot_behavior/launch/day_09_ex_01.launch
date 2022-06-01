@@ -1,0 +1,16 @@
+<launch>
+    <arg name="first_goal" default="[0.0, 0.0, 0.0]" />
+    <arg name="second_goal" default="[1.0, 1.0, 1.0]" />
+    <arg name="third_goal" default="[2.0, 2.0, 2.0]" />
+
+    <rosparam param="waypoints">[$(arg first_goal), $(arg second_goal), $(arg third_goal)]</rosparam>
+    <rosparam param="times_to_repeat" subst_value="True">-1</rosparam>
+
+    <rosparam param="first_goal" subst_value="True">$(arg first_goal)</rosparam>
+    <rosparam param="second_goal" subst_value="True">$(arg second_goal)</rosparam>
+    <rosparam param="third_goal" subst_value="True">$(arg third_goal)</rosparam>
+
+    <rosparam param="tree_file" subst_value="True">$(find robot_behavior)/bt/tree.xml</rosparam>
+
+    <node pkg="robot_behavior" type="tree" name="tree" output="screen" />
+</launch>

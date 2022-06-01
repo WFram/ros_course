@@ -1,0 +1,8 @@
+<root main_tree_to_execute = "MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <Subscriber sub_port="{times_to_repeat}"/>
+            <Publisher pub_port="{times_to_repeat}"/>
+        </Sequence>
+    </BehaviorTree>
+</root>

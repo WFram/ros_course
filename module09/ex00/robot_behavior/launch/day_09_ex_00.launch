@@ -1,0 +1,5 @@
+<launch>
+    <param name="times_to_repeat" type="int" value="5" />
+
+    <node pkg="robot_behavior" type="tree" name="tree" output="screen" />
+</launch>

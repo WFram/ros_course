@@ -1,0 +1,7 @@
+<launch>
+    <param name="img_file" value="$(find computer_vision)/misc/images/image_with_pretty_edges.png" type="string" />
+
+    <node pkg="computer_vision" type="publisher_node" name="publisher_node" />
+
+    <node pkg="computer_vision" type="server" name="server" />
+</launch>

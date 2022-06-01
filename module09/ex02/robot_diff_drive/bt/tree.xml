@@ -1,0 +1,9 @@
+<root main_tree_to_execute = "MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <MoveBaseAction1 name="move_goal_1"/>
+            <MoveBaseAction2 name="move_goal_2"/>
+            <MoveBaseAction3 name="move_goal_3"/>
+        </Sequence>
+    </BehaviorTree>
+</root>
